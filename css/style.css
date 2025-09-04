@@ -4,7 +4,8 @@ body {
 }
 
 .first-section,
-.second-section {
+.second-section,
+.third-section {
     padding: 85px 30px;
 }
 
@@ -83,7 +84,8 @@ body {
 
 /* ------------------ */
 
-.second-section {
+.second-section,
+.third-section-container {
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -123,4 +125,23 @@ body {
 
     border: 3px solid #3882f6;
     border-radius: 10px;
+}
+
+/* -------------------------- */
+
+.third-section {
+    background-color: #e5e7eb;
+}
+
+.third-section-description {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.author {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: right;
 }
