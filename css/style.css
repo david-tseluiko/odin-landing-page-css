@@ -177,3 +177,16 @@ body {
 .button.border {
     border: 1px solid #e5e7eb;
 }
+
+/* ------------------- */
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
