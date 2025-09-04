@@ -3,7 +3,8 @@ body {
     font-size: 18px;
 }
 
-.header {
+.header,
+.first-section {
     padding: 5px 30px;
     background-color: #1f2937;
 }
@@ -26,4 +27,53 @@ body {
 
 .nav-item a {
     color: #e5e7eb;
+}
+
+/* -------------------- */
+
+.first-section {
+    color: #f9faf8;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 40px;
+
+    padding: 85px 30px;
+}
+
+.first-section-container {
+    flex: 1 0 200px;
+    text-align: center;
+
+}
+
+.first-section-container .title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first-section-container .description {
+    color: #e5e7eb;
+}
+
+.first-section-container .button {
+    background-color: #3882f6;
+    border: 0;
+    cursor: pointer;
+
+    color: #f9faf8;
+    padding: 8px 32px;
+    border-radius: 15px;
+}
+
+.first-section-img {
+    max-width: 600px;
+    flex: 0 1 auto;
+}
+
+.first-section-img img {
+    width: 100%;
 }
