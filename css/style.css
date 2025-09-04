@@ -3,8 +3,12 @@ body {
     font-size: 18px;
 }
 
-.header,
-.first-section {
+.first-section,
+.second-section {
+    padding: 85px 30px;
+}
+
+.header {
     padding: 5px 30px;
     background-color: #1f2937;
 }
@@ -33,6 +37,7 @@ body {
 
 .first-section {
     color: #f9faf8;
+    background-color: #1f2937;
 
     display: flex;
 
@@ -40,8 +45,6 @@ body {
     justify-content: space-between;
 
     gap: 40px;
-
-    padding: 85px 30px;
 }
 
 .first-section-container {
@@ -66,7 +69,7 @@ body {
 
     color: #f9faf8;
     padding: 8px 32px;
-    border-radius: 15px;
+    border-radius: 15vpx;
 }
 
 .first-section-img {
@@ -76,4 +79,48 @@ body {
 
 .first-section-img img {
     width: 100%;
+}
+
+/* ------------------ */
+
+.second-section {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.second-section-header-text {
+    text-align: center;
+
+    color: #1f2937;
+    font-size: 48px;
+    font-weight: 900;
+
+    margin-bottom: 30px;
+}
+
+.countries-list {
+    display: flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: 40px;
+}
+
+.countries-list li {
+    flex: 1;
+}
+
+.country-description {
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.countries-list li img {
+    min-width: 200px;
+    width: 100%;
+
+    border: 3px solid #3882f6;
+    border-radius: 10px;
 }
