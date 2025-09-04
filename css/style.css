@@ -145,3 +145,35 @@ body {
     font-size: 24px;
     text-align: right;
 }
+
+/* ------------------------------- */
+
+.fourth-section {
+    max-width: 1450px;
+    margin: 85px auto;
+    padding: 30px;
+
+    background-color: #3882f6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 230px;
+    row-gap: 25px;
+    flex-wrap: wrap;
+}
+
+.fourth-section-title {
+    color: #f9faf8;
+    font-weight: 500;
+}
+
+.fourth-section-description {
+    color: #e5e7eb;
+    font-weight: 200;
+}
+
+.button.border {
+    border: 1px solid #e5e7eb;
+}
